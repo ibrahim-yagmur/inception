@@ -22,7 +22,7 @@ class HomeScreenState extends State {
   List<Student> students = [
     Student.withId(1, "ibrahim", "Yağmur", 95),
     Student.withId(2, "demir", "Demiri", 45),
-    Student.withId(3, "furkan", "Doğan", 25),
+    Student.withId(3, "furkan", "Doğan3", 25),
   ];
   Student selectedStudent = Student.withId(0, "Hiç kimse", "", 0);
   @override
